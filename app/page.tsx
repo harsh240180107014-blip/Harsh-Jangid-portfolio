@@ -1,0 +1,1 @@
+import Portfolio from '../components/Portfolio';import {readContent} from '../lib/server';export const dynamic='force-dynamic';export default async function Home(){const c=await readContent();return <Portfolio content={{...c,projects:c.projects.filter(p=>p.published&&!p.deleted)}}/>}

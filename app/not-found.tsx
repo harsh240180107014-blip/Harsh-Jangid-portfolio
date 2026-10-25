@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="section detail"><p className="eyebrow">404 / A SMALL DETOUR</p><h1>This page<br/>is off the map.</h1><p>The project may be a draft, or this link may have changed.</p><a className="button primary" href="/">Return to portfolio ↗</a></main>}
